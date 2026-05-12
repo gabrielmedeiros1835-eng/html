@@ -1,0 +1,56 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 20px;  
+}
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    margin: 0px 1px;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 10px 10px 10px 10px;
+}
+nav > a.design{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    margin: 0px 1px;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+main{
+    text-align: justify;
+    margin: 28px 3px 28px 3px;
+}
+
+nav > a:hover{
+    background-color: #737373;
+    transition: 0.7s;
+    font-weight: bolder;
+}
+footer{
+    margin: 470px 10px 10px 10px
+}
+footer > a{
+    color: black;
+    text-decoration: none;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8"
+*{
+
+}
+body{
+    text-align: justify;
+    background-image: linear-gradient(#EF5414,#FF822E );
+    background-attachment: fixed;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    
+}
+a{
+    color: #332D2B;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+ 
